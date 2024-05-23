@@ -38,6 +38,7 @@ void to_lowercase(char *str) {
 bool is_anagram(const char *s1, const char *s2)
 {
     // Adding a size test before starting the comparison processing
+    // If the size of two strings are not equal then we directly exit the function
     if( strlen(s1) != strlen(s2))
     {
         return false;

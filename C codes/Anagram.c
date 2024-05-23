@@ -58,6 +58,9 @@ bool is_anagram(const char *s1, const char *s2)
 }
 
 // Main function to run the software
+// Using pointers as parameters allows you to directly modify the values of variables passed to the function. 
+// This is essential when working with arrays or strings (which are character arrays in C), 
+// because we want to directly modify the elements of these arrays.
 int main()
 {
     const char *s1 = "Hatem";

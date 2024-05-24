@@ -75,3 +75,27 @@ int main()
 
     return 0;
 }
+
+
+
+
+// Another solution for someone
+/*
+#include <stdbool.h>
+
+bool is_anagram(const char *s1, const char *s2)
+{
+    int check = 0;
+
+    while (*s1) {
+        check ^= tolower(*s1);
+        s1++;
+    }
+    while (*s2) {
+        check ^= tolower(*s2);
+        s2++;
+    }
+    return !check;
+}
+
+*/

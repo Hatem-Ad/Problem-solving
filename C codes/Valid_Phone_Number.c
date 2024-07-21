@@ -22,7 +22,7 @@ bool valid_phone_number(const char *number) {
 }
 
 int main() {
-    char *number = "(1230) 456-7890";
+    char *number = "(123) 456-7890";
     printf("Votre numéro est %s\n", valid_phone_number(number) ? "valide" : "invalide");
     return 0;
 }
